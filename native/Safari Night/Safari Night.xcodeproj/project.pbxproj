@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF858AD8306E0E6D007B9137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF858AD7306E0E6D007B9137 /* AppDelegate.swift */; };
+		EF858ADC306E0E6D007B9137 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EF858ADA306E0E6D007B9137 /* Main.html */; };
+		EF858ADE306E0E6D007B9137 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF858ADD306E0E6D007B9137 /* Icon.png */; };
+		EF858AE0306E0E6D007B9137 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EF858ADF306E0E6D007B9137 /* Style.css */; };
+		EF858AE2306E0E6D007B9137 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EF858AE1306E0E6D007B9137 /* Script.js */; };
+		EF858AE4306E0E6D007B9137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF858AE3306E0E6D007B9137 /* ViewController.swift */; };
+		EF858AE7306E0E6D007B9137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF858AE5306E0E6D007B9137 /* Main.storyboard */; };
+		EF858AE9306E0E6E007B9137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF858AE8306E0E6E007B9137 /* Assets.xcassets */; };
+		EF858AF0306E0E6E007B9137 /* Safari Night Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EF858AEF306E0E6E007B9137 /* Safari Night Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF858AF5306E0E6E007B9137 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF858AF4306E0E6E007B9137 /* SafariWebExtensionHandler.swift */; };
+		EF858B05306E0E6E007B9137 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = EF858B01306E0E6E007B9137 /* popup.js */; };
+		EF858B06306E0E6E007B9137 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = EF858B02306E0E6E007B9137 /* popup.html */; };
+		EF858B07306E0E6E007B9137 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EF858B03306E0E6E007B9137 /* manifest.json */; };
+		EF858B08306E0E6E007B9137 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = EF858B04306E0E6E007B9137 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF858AF1306E0E6E007B9137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF858ACC306E0E6D007B9137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF858AEE306E0E6E007B9137;
+			remoteInfo = "Safari Night Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF858AFC306E0E6E007B9137 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				EF858AF0306E0E6E007B9137 /* Safari Night Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF858AD4306E0E6D007B9137 /* Safari Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF858AD7306E0E6D007B9137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF858ADB306E0E6D007B9137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		EF858ADD306E0E6D007B9137 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EF858ADF306E0E6D007B9137 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		EF858AE1306E0E6D007B9137 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		EF858AE3306E0E6D007B9137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF858AE6306E0E6D007B9137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF858AE8306E0E6E007B9137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF858AEA306E0E6E007B9137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF858AEF306E0E6E007B9137 /* Safari Night Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Night Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF858AF4306E0E6E007B9137 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EF858AF6306E0E6E007B9137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF858B01306E0E6E007B9137 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../../web/popup.js; sourceTree = "<group>"; };
+		EF858B02306E0E6E007B9137 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../web/popup.html; sourceTree = "<group>"; };
+		EF858B03306E0E6E007B9137 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../web/manifest.json; sourceTree = "<group>"; };
+		EF858B04306E0E6E007B9137 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../web/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF858AD1306E0E6D007B9137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		EF858AEC306E0E6E007B9137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF858ACB306E0E6D007B9137 = {
+			isa = PBXGroup;
+			children = (
+				EF858AD6306E0E6D007B9137 /* Safari Night */,
+				EF858AF3306E0E6E007B9137 /* Safari Night Extension */,
+				EF858AD5306E0E6D007B9137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF858AD5306E0E6D007B9137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF858AD4306E0E6D007B9137 /* Safari Night.app */,
+				EF858AEF306E0E6E007B9137 /* Safari Night Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF858AD6306E0E6D007B9137 /* Safari Night */ = {
+			isa = PBXGroup;
+			children = (
+				EF858AD7306E0E6D007B9137 /* AppDelegate.swift */,
+				EF858AE3306E0E6D007B9137 /* ViewController.swift */,
+				EF858AE5306E0E6D007B9137 /* Main.storyboard */,
+				EF858AE8306E0E6E007B9137 /* Assets.xcassets */,
+				EF858AEA306E0E6E007B9137 /* Info.plist */,
+				EF858AD9306E0E6D007B9137 /* Resources */,
+			);
+			path = "Safari Night";
+			sourceTree = "<group>";
+		};
+		EF858AD9306E0E6D007B9137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF858ADA306E0E6D007B9137 /* Main.html */,
+				EF858ADD306E0E6D007B9137 /* Icon.png */,
+				EF858ADF306E0E6D007B9137 /* Style.css */,
+				EF858AE1306E0E6D007B9137 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF858AF3306E0E6E007B9137 /* Safari Night Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF858B00306E0E6E007B9137 /* Resources */,
+				EF858AF4306E0E6E007B9137 /* SafariWebExtensionHandler.swift */,
+				EF858AF6306E0E6E007B9137 /* Info.plist */,
+			);
+			path = "Safari Night Extension";
+			sourceTree = "<group>";
+		};
+		EF858B00306E0E6E007B9137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF858B01306E0E6E007B9137 /* popup.js */,
+				EF858B02306E0E6E007B9137 /* popup.html */,
+				EF858B03306E0E6E007B9137 /* manifest.json */,
+				EF858B04306E0E6E007B9137 /* content.js */,
+			);
+			name = Resources;
+			path = "Safari Night Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF858AD3306E0E6D007B9137 /* Safari Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF858AFD306E0E6E007B9137 /* Build configuration list for PBXNativeTarget "Safari Night" */;
+			buildPhases = (
+				EF858AD0306E0E6D007B9137 /* Sources */,
+				EF858AD1306E0E6D007B9137 /* Frameworks */,
+				EF858AD2306E0E6D007B9137 /* Resources */,
+				EF858AFC306E0E6E007B9137 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF858AF2306E0E6E007B9137 /* PBXTargetDependency */,
+			);
+			name = "Safari Night";
+			productName = "Safari Night";
+			productReference = EF858AD4306E0E6D007B9137 /* Safari Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF858AEE306E0E6E007B9137 /* Safari Night Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF858AF9306E0E6E007B9137 /* Build configuration list for PBXNativeTarget "Safari Night Extension" */;
+			buildPhases = (
+				EF858AEB306E0E6E007B9137 /* Sources */,
+				EF858AEC306E0E6E007B9137 /* Frameworks */,
+				EF858AED306E0E6E007B9137 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Safari Night Extension";
+			productName = "Safari Night Extension";
+			productReference = EF858AEF306E0E6E007B9137 /* Safari Night Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF858ACC306E0E6D007B9137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					EF858AD3306E0E6D007B9137 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					EF858AEE306E0E6E007B9137 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = EF858ACF306E0E6D007B9137 /* Build configuration list for PBXProject "Safari Night" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF858ACB306E0E6D007B9137;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF858AD5306E0E6D007B9137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF858AD3306E0E6D007B9137 /* Safari Night */,
+				EF858AEE306E0E6E007B9137 /* Safari Night Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF858AD2306E0E6D007B9137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				EF858ADE306E0E6D007B9137 /* Icon.png in Resources */,
+				EF858AE7306E0E6D007B9137 /* Main.storyboard in Resources */,
+				EF858AE2306E0E6D007B9137 /* Script.js in Resources */,
+				EF858ADC306E0E6D007B9137 /* Main.html in Resources */,
+				EF858AE9306E0E6E007B9137 /* Assets.xcassets in Resources */,
+				EF858AE0306E0E6D007B9137 /* Style.css in Resources */,
+			);
+		};
+		EF858AED306E0E6E007B9137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				EF858B08306E0E6E007B9137 /* content.js in Resources */,
+				EF858B05306E0E6E007B9137 /* popup.js in Resources */,
+				EF858B07306E0E6E007B9137 /* manifest.json in Resources */,
+				EF858B06306E0E6E007B9137 /* popup.html in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF858AD0306E0E6D007B9137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				EF858AE4306E0E6D007B9137 /* ViewController.swift in Sources */,
+				EF858AD8306E0E6D007B9137 /* AppDelegate.swift in Sources */,
+			);
+		};
+		EF858AEB306E0E6E007B9137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				EF858AF5306E0E6E007B9137 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF858AF2306E0E6E007B9137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF858AEE306E0E6E007B9137 /* Safari Night Extension */;
+			targetProxy = EF858AF1306E0E6E007B9137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF858ADA306E0E6D007B9137 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF858ADB306E0E6D007B9137 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		EF858AE5306E0E6D007B9137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF858AE6306E0E6D007B9137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF858AF7306E0E6E007B9137 /* Debug configuration for PBXProject "Safari Night" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF858AF8306E0E6E007B9137 /* Release configuration for PBXProject "Safari Night" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EF858AFA306E0E6E007B9137 /* Debug configuration for PBXNativeTarget "Safari Night Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Night Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Night Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santekotturi.safarinight.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF858AFB306E0E6E007B9137 /* Release configuration for PBXNativeTarget "Safari Night Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Night Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Night Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santekotturi.safarinight.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF858AFE306E0E6E007B9137 /* Debug configuration for PBXNativeTarget "Safari Night" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Night/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Night";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santekotturi.safarinight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF858AFF306E0E6E007B9137 /* Release configuration for PBXNativeTarget "Safari Night" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safari Night/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Night";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santekotturi.safarinight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF858ACF306E0E6D007B9137 /* Build configuration list for PBXProject "Safari Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF858AF7306E0E6E007B9137 /* Debug configuration for PBXProject "Safari Night" */,
+				EF858AF8306E0E6E007B9137 /* Release configuration for PBXProject "Safari Night" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EF858AF9306E0E6E007B9137 /* Build configuration list for PBXNativeTarget "Safari Night Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF858AFA306E0E6E007B9137 /* Debug configuration for PBXNativeTarget "Safari Night Extension" */,
+				EF858AFB306E0E6E007B9137 /* Release configuration for PBXNativeTarget "Safari Night Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EF858AFD306E0E6E007B9137 /* Build configuration list for PBXNativeTarget "Safari Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF858AFE306E0E6E007B9137 /* Debug configuration for PBXNativeTarget "Safari Night" */,
+				EF858AFF306E0E6E007B9137 /* Release configuration for PBXNativeTarget "Safari Night" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF858ACC306E0E6D007B9137 /* Project object */;
+	validationLevel = 1;
+}
